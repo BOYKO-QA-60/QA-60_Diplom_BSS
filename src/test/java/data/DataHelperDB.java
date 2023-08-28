@@ -3,7 +3,6 @@ package data;
 
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
-import org.apache.commons.lang3.ObjectUtils;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -14,7 +13,7 @@ public class DataHelperDB {
     private static final String user = System.getProperty("db.user");
     private static final String password = System.getProperty("db.password");
 
-    public static void clearTables() {
+    public static void clearTables() throws SQLException {
         String deleteOrderEntity = "DELETE FROM order_entity;";
         String deletePaymentEntity = "DELETE FROM payment_entity;";
         String deleteCreditRequestEntity = "DELETE FROM credit_request_entity;";
@@ -24,29 +23,18 @@ public class DataHelperDB {
             runner.update(conn, deleteOrderEntity);
             runner.update(conn, deletePaymentEntity);
             runner.update(conn, deleteCreditRequestEntity);
-        } catch (SQLException e) {
-            e.printStackTrace();
+
         }
     }
 
-    public static String findPayStatus() {
+    public static String findPayStatus() throws SQLException {
         String statusSQL = "SELECT status FROM payment_entity;";
-        try {
-            return getData(statusSQL);
-        } catch (SQLException e) {
-            e.printStackTrace();
-            return "ОШИБКА: Не удалось получить статус покупки из базы данных.";
-        }
+        return getData(statusSQL);
     }
 
-    public static String findCreditStatus() {
+    public static String findCreditStatus() throws SQLException {
         String statusSQL = "SELECT status FROM credit_request_entity;";
-        try {
-            return getData(statusSQL);
-        } catch (SQLException e) {
-            e.printStackTrace();
-            return "ОШИБКА: Не удалось получить статус покупки в кредит из базы данных.";
-        }
+        return getData(statusSQL);
     }
 
 
@@ -55,21 +43,16 @@ public class DataHelperDB {
         String data = "";
         try (Connection conn = DriverManager.getConnection(url, user, password)) {
             data = runner.query(conn, query, new ScalarHandler<>());
-        } catch (SQLException e) {
-            e.printStackTrace();
         }
         return data;
     }
 
-    public static long getOrderEntityCount() {
+    public static long getOrderEntityCount() throws SQLException {
         String countSQL = "SELECT COUNT(*) FROM order_entity;";
         try (Connection conn = DriverManager.getConnection(url, user, password)) {
             QueryRunner runner = new QueryRunner();
             Long count = runner.query(conn, countSQL, new ScalarHandler<>());
             return count != null ? count : 0;
-        } catch (SQLException e) {
-            e.printStackTrace();
-            return 0;
         }
     }
 }
