@@ -3,6 +3,7 @@ package data;
 
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
+import org.apache.commons.lang3.ObjectUtils;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
