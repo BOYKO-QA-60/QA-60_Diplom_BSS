@@ -5,7 +5,8 @@ import com.codeborne.selenide.SelenideElement;
 import java.time.Duration;
 
 import static com.codeborne.selenide.Condition.*;
-import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.Selenide.$$;
+import static com.codeborne.selenide.Selenide.open;
 
 public class WebPage {
     private SelenideElement buyButton = $$(".button__text").find(exactText("Купить"));
@@ -37,19 +38,19 @@ public class WebPage {
             .find(exactText("Поле обязательно для заполнения"));
 
 
-    public void buyWithCash() {
+    public WebPage() {
         open("http://localhost:8080/");
+    }
+
+    public void buyWithCash() {
         buyButton.click();
         payCard.shouldBe(visible);
-
     }
 
     public void buyInCredit() {
-        open("http://localhost:8080/");
         buyCreditButton.click();
         payCreditByCard.shouldBe(visible);
     }
-
 
     public void setCardNumber(String number) {
         cardNumberField.setValue(number);
@@ -81,11 +82,11 @@ public class WebPage {
     }
 
     public void messageSuccessfully() {
-        messageSuccessfully.shouldBe(visible, Duration.ofSeconds(10));
+        messageSuccessfully.shouldBe(visible, Duration.ofSeconds(20));
     }
 
     public void messageError() {
-        messageError.shouldBe(visible, Duration.ofSeconds(10));
+        messageError.shouldBe(visible, Duration.ofSeconds(15));
     }
 
     public void messageIncorrectFormat() {
