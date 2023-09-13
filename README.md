@@ -3,8 +3,8 @@
 
 ## Документы
 * [План автоматизации](https://github.com/BOYKO-QA-60/QA-60_Diplom_BSS/blob/main/documents/Plan.md)
-* [Отчёт по итогам тестирования](в разработке)
-* [Отчёт об автоматизации](в разработке)
+* [Отчёт по итогам тестирования]((https://github.com/BOYKO-QA-60/QA-60_Diplom_BSS/blob/main/documents/Report.md)
+* [Отчёт об автоматизации](https://github.com/BOYKO-QA-60/QA-60_Diplom_BSS/blob/main/documents/Summary.md)
 
 ## Описание приложения
 Приложение представляет собой веб-сервис, который предлагает купить тур по определённой цене двумя способами:
