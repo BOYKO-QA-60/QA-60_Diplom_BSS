@@ -14,7 +14,7 @@
 Около 70% успешных тестов из 34. 10 тестов выявили баги приложения.
 
 #### Allure-репорт
-![процент тестов](..%2F..%2FAllure.PNG)
+![процент тестов]([..%2F..%2FAllure.PNG](http://localhost:63342/QA-60_Diplom_BSS/build/reports/allure-report/allureReport/))
 
 #### Gradle-репорт 
 
