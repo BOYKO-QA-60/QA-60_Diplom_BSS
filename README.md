@@ -54,10 +54,10 @@ d) Запустить контейнеры командой:
 4. Для запуска сервиса с указанием пути к базе данных использовать следующие команды:
    
 * для mysql:
-   `java "-Dspring.datasource.url=jdbc:mysql://185.119.57.9:9999/app" -jar aqa-shop.jar`
+   `java "-Dspring.datasource.url=jdbc:mysql://185.119.57.9:3306/app" -jar aqa-shop.jar`
   
 * для postgresql:
-   `java "-Dspring.datasource.url=jdbc:postgresql://185.119.57.9:9999/app" -jar aqa-shop.jar`
+   `java "-Dspring.datasource.url=jdbc:postgresql://185.119.57.9:5432/app" -jar aqa-shop.jar`
   
 
 5. Sut открывается по адресу `http://localhost:8080/`
@@ -66,10 +66,10 @@ d) Запустить контейнеры командой:
 6. Запуск тестов стоит выполнить с параметрами, указав путь к базе данных в командной строке:
    
   * для mysql:
-     `./gradlew clean test "-Ddb.url=jdbc:mysql://185.119.57.9:9999/app"`
+     `./gradlew clean test "-Ddb.url=jdbc:mysql://185.119.57.9:3306/app"`
     
   * для postgresql:
-     `./gradlew clean test "-Ddb.url=jdbc:postgresql://185.119.57.9:9999/app"`
+     `./gradlew clean test "-Ddb.url=jdbc:postgresql://185.119.57.9:5432/app"`
     
 
 7. Для формирования отчета (Allure), после выполнения тестов выполнить команду:
