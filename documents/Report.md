@@ -14,11 +14,11 @@
 Успешных тестов 24 из 34, что сотавило 71%. 10 тестов выявили баги приложения, что составлет 29% из общего числа.
 
 #### Allure-репорт
-![процент тестов](https://github.com/BOYKO-QA-60/QA-60_Diplom_BSS/blob/main/build/reports/allure-report/allureReport/index.html)
+![Процент тестов](https://github.com/BOYKO-QA-60/QA-60_Diplom_BSS/assets/127764324/b7dd653f-7839-4b0b-90c1-d86bf6fdf184)
 
 #### Gradle-репорт 
 
-![Test results]()
+![Результат тестов](https://github.com/BOYKO-QA-60/QA-60_Diplom_BSS/assets/127764324/634ae8d5-e8b2-4f84-bbd7-2de74d6863dc)
 
 
 ## Общие рекомендации:
