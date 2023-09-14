@@ -1,0 +1,1 @@
+{"uuid":"d2bc5ee3-7f70-4ed7-973a-10122f54a6cc","name":"Оплата тура по карте с годом + 6 лет от текущего","children":["70fb7107-8798-466d-abe9-9420fe48c7ab"],"befores":[{"name":"clearDatabaseTables","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1694685446958,"stop":1694685447167}],"afters":[],"start":1694685446955,"stop":1694685447690}

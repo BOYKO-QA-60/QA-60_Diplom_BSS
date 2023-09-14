@@ -1,0 +1,1 @@
+{"uuid":"bb21494a-6cc2-46f0-8400-5e84ef1d3ce1","name":"Оплата тура по несуществующей карте","children":["bd2d8188-ebbc-470d-b1a3-2335ff50fb77"],"befores":[{"name":"clearDatabaseTables","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1694685401627,"stop":1694685401830}],"afters":[],"start":1694685401626,"stop":1694685411447}

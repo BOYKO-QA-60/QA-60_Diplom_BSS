@@ -1,0 +1,1 @@
+{"uuid":"ff26440f-0af4-4bf6-9eb6-b000c273ceee","name":"Кредит за тур по карте с незаполненным полем год","children":["7d63fee5-22a0-422f-8156-ea1e875662a9"],"befores":[{"name":"clearDatabaseTables","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1694685474945,"stop":1694685475120}],"afters":[],"start":1694685474944,"stop":1694685475635}

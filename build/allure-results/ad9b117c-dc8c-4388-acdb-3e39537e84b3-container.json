@@ -1,0 +1,1 @@
+{"uuid":"ad9b117c-dc8c-4388-acdb-3e39537e84b3","name":"Оплата тура с валидной картой с статусом DECLINED","children":["e91b9610-08f5-4403-b343-522c3b152b72"],"befores":[{"name":"clearDatabaseTables","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1694685480760,"stop":1694685480964}],"afters":[],"start":1694685480758,"stop":1694685496742}

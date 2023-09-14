@@ -1,0 +1,1 @@
+{"uuid":"1ffd9307-94e1-40d0-9397-446e03c3a2a6","name":"Кредит за тур по карте с невалидным месяцем 00","children":["025b3a87-45b4-41b3-bc33-58f5bd459ee8"],"befores":[{"name":"clearDatabaseTables","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1694685411467,"stop":1694685411709}],"afters":[],"start":1694685411465,"stop":1694685416601}

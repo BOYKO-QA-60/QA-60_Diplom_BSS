@@ -1,0 +1,1 @@
+{"uuid":"612ffc32-7095-4c7d-ad26-8bdf98777b3d","name":"Оплата тура с незаполнеными полями","children":["27ec49d1-2929-40c3-930e-50217ce905c6"],"befores":[{"name":"clearDatabaseTables","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1694685454963,"stop":1694685455176}],"afters":[],"start":1694685454962,"stop":1694685455583}

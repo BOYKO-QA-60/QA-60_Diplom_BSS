@@ -1,0 +1,1 @@
+{"uuid":"99a06c71-f1a6-44df-a885-5cda23e23bc2","name":"Оплата тура по карте с незаполненным полем год","children":["d183d762-a192-47dc-b886-dc007361795d"],"befores":[{"name":"clearDatabaseTables","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1694685422126,"stop":1694685422389}],"afters":[],"start":1694685422124,"stop":1694685422909}

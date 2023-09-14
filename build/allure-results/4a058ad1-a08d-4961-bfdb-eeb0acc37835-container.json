@@ -1,0 +1,1 @@
+{"uuid":"4a058ad1-a08d-4961-bfdb-eeb0acc37835","name":"Кредит за тур с незаполнеными полями","children":["f308c524-3fe9-4601-8b2a-71863361e1f3"],"befores":[{"name":"clearDatabaseTables","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1694685399431,"stop":1694685399645}],"afters":[],"start":1694685399430,"stop":1694685400071}

@@ -1,0 +1,1 @@
+{"uuid":"c393aef8-a968-48c7-936f-9016903b29aa","name":"Оплата тура с пустым полем Владелец","children":["86e46ff9-3ae8-4e99-8ab0-b59c5fd860e1"],"befores":[{"name":"clearDatabaseTables","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1694685393800,"stop":1694685394003}],"afters":[],"start":1694685393799,"stop":1694685394497}

@@ -1,0 +1,1 @@
+{"uuid":"bf25c905-3713-4773-bee5-9161dc20f44e","name":"Кредит за тур с пустым значением в поле CVC/CVV","children":["0ea1da18-d3cd-4e2d-be9c-d5b0b646525a"],"befores":[{"name":"clearDatabaseTables","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1694685455604,"stop":1694685455787}],"afters":[],"start":1694685455601,"stop":1694685456296}

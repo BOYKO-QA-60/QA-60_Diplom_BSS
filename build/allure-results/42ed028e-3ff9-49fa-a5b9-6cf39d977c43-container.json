@@ -1,0 +1,1 @@
+{"uuid":"42ed028e-3ff9-49fa-a5b9-6cf39d977c43","name":"Оплата тура с валидной картой с статусом APPROVED","children":["ae08f7cd-bd18-4d9d-b0d6-85ff176a5005"],"befores":[{"name":"clearDatabaseTables","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1694685394516,"stop":1694685394754}],"afters":[],"start":1694685394514,"stop":1694685398658}
