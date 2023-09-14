@@ -1,1 +1,0 @@
-{"uuid":"7fd1a37d-b085-4d62-b1e5-a7dbba7f06a0","name":"Кредит за тур по несуществующей карте","children":["40fb1180-6bc6-4c33-a9aa-e86b7344386b"],"befores":[{"name":"clearDatabaseTables","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1694685470769,"stop":1694685471534}],"afters":[],"start":1694685470767,"stop":1694685474123}

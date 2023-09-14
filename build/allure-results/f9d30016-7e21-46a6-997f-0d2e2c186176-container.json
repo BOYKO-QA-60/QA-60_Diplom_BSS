@@ -1,1 +1,0 @@
-{"uuid":"f9d30016-7e21-46a6-997f-0d2e2c186176","name":"Кредит за тур с валидной картой с статусом APPROVED","children":["1129642c-b3e4-4f25-91f0-fad4a30b3d80"],"befores":[{"name":"clearDatabaseTables","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1694685462930,"stop":1694685463173}],"afters":[],"start":1694685462929,"stop":1694685470741}

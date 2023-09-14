@@ -1,1 +1,0 @@
-{"uuid":"383db568-8870-4be8-b84a-f081fa22f8a0","name":"Оплата тура с пустым значением в поле CVC/CVV","children":["1632d1df-b841-4d6f-81ca-92d4bf66ad5a"],"befores":[{"name":"clearDatabaseTables","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1694685429095,"stop":1694685429344}],"afters":[],"start":1694685429093,"stop":1694685429939}

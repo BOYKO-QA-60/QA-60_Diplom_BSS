@@ -1,1 +1,0 @@
-{"uuid":"d588e173-3552-40de-b569-34ee39ee69f4","name":"Оплата тура с вводом одной цифры в поле CVC/CVV","children":["6bc609a9-29a4-4898-8fd9-84366a577263"],"befores":[{"name":"clearDatabaseTables","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1694685456320,"stop":1694685456567}],"afters":[],"start":1694685456318,"stop":1694685457061}

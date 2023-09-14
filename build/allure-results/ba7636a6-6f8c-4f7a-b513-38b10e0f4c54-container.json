@@ -1,1 +1,0 @@
-{"uuid":"ba7636a6-6f8c-4f7a-b513-38b10e0f4c54","name":"Оплата тура по карте с невалидным месяцем 00","children":["bfe3050f-81dc-423b-981a-f4564cf4857e"],"befores":[{"name":"clearDatabaseTables","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1694685475657,"stop":1694685475847}],"afters":[],"start":1694685475655,"stop":1694685480737}

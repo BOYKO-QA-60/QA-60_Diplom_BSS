@@ -1,1 +1,0 @@
-{"uuid":"8b1b6677-e080-44c5-81c4-5b8ed77adeeb","name":"Оплата тура с вводом цифр в поле Владелец","children":["f53b60d0-9300-448b-a83a-8ec2467e8fe8"],"befores":[{"name":"clearDatabaseTables","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1694685423935,"stop":1694685424155}],"afters":[],"start":1694685423932,"stop":1694685429073}

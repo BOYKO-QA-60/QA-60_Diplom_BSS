@@ -1,1 +1,0 @@
-{"uuid":"3cbfdc50-1a96-4602-b9fc-d6fa5cc53141","name":"Оплата тура по не полностью заполненной карте","children":["5499cfc2-7d8e-4526-904f-1b47b59f4a9c"],"befores":[{"name":"clearDatabaseTables","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1694685429960,"stop":1694685430138}],"afters":[],"start":1694685429959,"stop":1694685430952}

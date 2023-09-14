@@ -1,1 +1,0 @@
-{"uuid":"05e90c8d-7df9-4a26-9ebd-34f0a9483d88","name":"Кредит за тур с вводом двух цифр в поле CVC/CVV","children":["6490758a-49df-4838-a00d-024eeeb9e476"],"befores":[{"name":"clearDatabaseTables","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1694685400817,"stop":1694685401057}],"afters":[],"start":1694685400815,"stop":1694685401610}

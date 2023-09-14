@@ -1,1 +1,0 @@
-{"uuid":"ae4ac32c-cfc9-476b-9588-945688ce4cff","name":"Кредит за тур по не полностью заполненной карте","children":["43a329e4-c20f-489d-9895-b4923fd6f392"],"befores":[{"name":"clearDatabaseTables","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1694685422935,"stop":1694685423145}],"afters":[],"start":1694685422934,"stop":1694685423901}

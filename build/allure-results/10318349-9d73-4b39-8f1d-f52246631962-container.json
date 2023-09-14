@@ -1,1 +1,0 @@
-{"uuid":"10318349-9d73-4b39-8f1d-f52246631962","name":"Кредит за тур с вводом цифр в поле Владелец","children":["fc6cb999-4c76-4b23-86b6-fa7e69bf203c"],"befores":[{"name":"clearDatabaseTables","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1694685416635,"stop":1694685417125}],"afters":[],"start":1694685416632,"stop":1694685422099}
